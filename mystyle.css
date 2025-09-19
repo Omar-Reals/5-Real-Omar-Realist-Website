@@ -29,11 +29,13 @@ a:active {
 }
 body {
 	background-color: #EEC8CF;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-left:auto;
+	margin-right: auto;
 }
 #omar {
 	background-color: #634A45; 
-	background-image: url("browncat.jpeg");
+	background-image: url("Photos/browncat.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width:100%;
@@ -58,14 +60,22 @@ body {
 #titles2{
 	text-align: left; 
 	font-size: 45px;
+	margin: 15px;
 }
 #normaltext{
+	text-align: center; 
+	font-size: 30px;
+}
+#normaltext2{
 	text-align: center; 
 	font-size: 30px;
 }
 .whatthe{
 	font-size:30px;
 	margin: 5px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .threecollums {
 	width: 31%; 
